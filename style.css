@@ -1,0 +1,236 @@
+
+@font-face {
+    font-family: "sfpro";
+    src: url("./font/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF");
+}
+.header{
+    width: 100% !important;
+    height: 55px;
+    background-color: rgb(24 24 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "sfpro";
+    overflow-x: hidden;
+}
+.lindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.link{
+    color: rgb(255 255 255 / 80%);
+    text-decoration: none;
+}
+.link:hover{
+    color: white;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero_section{
+    width: 100%;
+  
+    background-color: black;
+    padding-top: 50px;
+ padding-bottom: 50px;
+
+}
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+.heading_black{
+    color: black;
+    text-align: center;
+    font-size: 48px;
+}
+.desc{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.desc_black{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+.dark-btn{
+    padding: 10px 15px;
+    background-color: blue;
+    border: none;
+    outline: navajowhite;
+    color: white;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.outline-btn{
+    padding: 10px 15px;
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.outline-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.btn_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.image_parent{
+    display: flex;
+    justify-content: flex-end;
+}
+.box3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #f5f5f7;
+}
+.display_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.firstcard{
+    width: 47%;
+    height: 475px;
+    background-color: black;
+}
+.firstcard_white{
+    width: 47%;
+    height: 475px;
+    background-color: white;
+    
+}
+.secondcard{
+    width: 47%;
+    height: 450px;
+    background-image: url("./images/secondcardimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 25px;
+}
+.contentbox{
+    text-align: center;
+    color: white;
+}
+.flex_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red_color_{
+    font-size: 24px;
+    color: red;
+}
+.circle_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0px;
+}
+.circle_light{
+    width: 10px;
+    height: 10px;
+    background-color: #949494;
+    border-radius:100% ;
+}
+.circle_dark{
+    width: 10px;
+    height: 10px;
+    background-color: #333333;
+    border-radius:100% ;
+}
+.bottom_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card_{
+    width: 23%;
+
+}
+.footer{
+    background-color: #f5f5f7;
+    color: #737374;
+    width: 100%;
+    padding: 15px 20px;
+}
+.footer p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.link_prent{
+    margin: 20px 0px;
+    border-top: 1px solid #737374 ;
+
+    width: 100%;
+    padding: 20px 15px; 
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.footer_card{
+    width: 20%;
+    padding: 10px ;
+}
+.heading_foter{
+    font-size: 19px !important;
+    color: #737374;
+    margin-top: 15px;
+}
+.link_foter{
+    text-decoration: none;
+    color:#737374 ;
+    font-size: 15px;
+
+
+}
+.link_foter:hover{
+    text-decoration: underline;
+}
+.u_ li{
+margin-top: 07px;
+}
+.bottom_pera{
+    padding: 10px 0px;
+    color: #737374;
+    font-size: 18px;
+    border-bottom: 1px solid  #737374 ;
+}
+.copy_{
+    padding: 10px 0px;
+    color: #737374;
+    font-size: 20px;
+   
+}
+.blue{
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
